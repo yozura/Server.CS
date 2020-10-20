@@ -1,2 +1,2 @@
-# Server.CS
-인프런에서 강의를 듣고 배운 내용을 토대로 C# 게임 서버를 구현합니다.
+## Server.CS
+### 지식공유자 : [Rookiss](https://www.inflearn.com/instructors/230375/courses)
