@@ -4,35 +4,77 @@ using System.Threading.Tasks;
 
 namespace SeverCore
 {
+    class SessionManager
+    {
+        static object _lock = new object();
+
+        public static void TestSession()
+        {
+            lock (_lock)
+            {
+                
+            }
+        }
+
+        public static void Test()
+        {
+            lock (_lock)
+            {
+                UserManager.TestUser();
+            }
+        }
+    }
+
+    class UserManager
+    {
+        static object _lock = new object();
+
+        public static void Test()
+        {
+            lock (_lock)
+            {
+                SessionManager.TestSession();
+            }
+        }
+
+        public static void TestUser()
+        {
+            lock(_lock)
+            {
+
+            }
+        }
+    }
+
     class Program
     {
-        volatile static bool _stop = false;
+        static int num = 0;
+        static object obj = new object();
 
-        static void ThreadMain()
+        static void Thread_1()
         {
-            Console.WriteLine("쓰레드 시작");
-            
-            while(!_stop)
+            for (int i = 0; i < 10000; i++)
             {
-                // 누군가가 stop 신호를 해주길 기다린다.
+                SessionManager.Test();
             }
-            
-            Console.WriteLine("쓰레드 종료");
+        }
+
+        static void Thread_2()
+        {
+            for (int i = 0; i < 10000; i++)
+            {
+                UserManager.Test();
+            }
         }
 
         static void Main(string[] args)
         {
-            Task t = new Task(ThreadMain);
-            t.Start();
+            Task t1 = new Task(Thread_1);
+            Task t2 = new Task(Thread_2);
+            t1.Start();
+            t2.Start();
 
-            Thread.Sleep(1000);
-
-            _stop = true;
-
-            Console.WriteLine("Stop 호출");
-            Console.WriteLine("종료 대기중");
-            t.Wait();
-            Console.WriteLine("종료 성공");
+            Task.WaitAll(t1, t2);
         }
     }
 }

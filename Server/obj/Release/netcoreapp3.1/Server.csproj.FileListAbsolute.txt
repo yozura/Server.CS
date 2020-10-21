@@ -1,0 +1,13 @@
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.exe
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.deps.json
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.runtimeconfig.json
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.runtimeconfig.dev.json
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.dll
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\bin\Release\netcoreapp3.1\Server.pdb
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.csprojAssemblyReference.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.AssemblyInfo.cs
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.dll
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.pdb
+E:\UnityPrograming\PrivateStudy\Server.CS\Server\obj\Release\netcoreapp3.1\Server.genruntimeconfig.cache
