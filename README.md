@@ -6,4 +6,6 @@
 ### 1021_캐시 이론, 메모리 배리어, InterLocked, Lock 기초, DeadLock, Lock 구현 이론
 코어에 내장되어있는 캐시에 대해 알아봤으며 캐시가 어떻게 작동하는지 또 어떤 특성이 있는지 배웠습니다. **메모리 배리어**는 **코드 재배치를 억제**하고 *(컴파일러 최적화시 코드의 순서가 뒤바뀔 가능성이 있음)* *가시성*을 보장한다는것을 배웠습니다. **Interlocked** 클래스를 이용해 값을 증가시키거나 감소시킬 때 생기는 세 단계를 단일 작업으로 처리시켜줍니다. **Atomic(원자성)** 이라고도 합니다. 또 Lock 키워드에 대해 배웠습니다. **Monitor.Enter, Exit**와 비슷한 기능을 하되 좀 더 간략하게 변화된 형태입니다. 매개변수로는 object를 받으며 문자 그대로 자물쇠의 역할을 합니다. 어떤 경우에는 **DeadLock** 현상을 일으키며 DeadLock은 **상호 배제(Mutual Exclusion)** 가 일어날 경우에 나타나는것이 일반적입니다. Lock 구현 이론에서는 Lock을 어떤식으로 배치하는지에 대해 간략하게 배웠습니다. 
 ### 1129_SpinLock
-*CAS(Compare-And-Swap)* 를 이용하는 Lock 구현 방식이며 *Interlocked.CompareExchange(ref original, desired, expected)* 함수를 이용해서 구현합니다. 
+*CAS(Compare-And-Swap)* 를 이용하는 Lock 구현 방식이며 *Interlocked.CompareExchange(ref original, desired, expected)* 함수를 이용해서 구현합니다.  
+### 0117_SpinLock 복습, Context Switching, AutoResetEvent, ManualResetEvent, Mutex, ReaderWriteLock
+오랜만에 다시 강의를 듣게 되서 전에 들었던 강의인 SpinLock 강의를 들으면서 마음을 다잡았고 Context Switching이 어떤 것인지 또 어떤 종류로 나뉘어서 활용하게 되는지 배웠습니다. AutoResetEvent와 ManualResetEvent, Mutex, ReaderWriteLock 등 바로 설명하기 어려운 부분은 따로 정보를 더 찾아봐야 할 것같습니다.
