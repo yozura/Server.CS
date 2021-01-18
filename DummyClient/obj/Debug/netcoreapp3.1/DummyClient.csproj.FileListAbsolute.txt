@@ -1,0 +1,13 @@
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.exe
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.deps.json
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.runtimeconfig.json
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.runtimeconfig.dev.json
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.dll
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\bin\Debug\netcoreapp3.1\DummyClient.pdb
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.csprojAssemblyReference.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.AssemblyInfoInputs.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.AssemblyInfo.cs
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.csproj.CoreCompileInputs.cache
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.dll
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.pdb
+E:\UnityPrograming\PrivateStudy\Server.CS\DummyClient\obj\Debug\netcoreapp3.1\DummyClient.genruntimeconfig.cache
