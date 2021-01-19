@@ -10,5 +10,6 @@
 ### 0117_SpinLock 복습, Context Switching, AutoResetEvent, ManualResetEvent, Mutex, ReaderWriteLock
 오랜만에 다시 강의를 듣게 되서 전에 들었던 강의인 SpinLock 강의를 들으면서 마음을 다잡았고 Context Switching이 어떤 것인지 또 어떤 종류로 나뉘어서 활용하게 되는지 배웠습니다. AutoResetEvent와 ManualResetEvent, Mutex, ReaderWriteLock 등 바로 설명하기 어려운 부분은 따로 정보를 더 찾아봐야 할 것같습니다.	
 ### 0117_ReaderWriteLock 연습, TLS(Thread Local Storage), Parallel 라이브러리
-*ReaderWriteLock* 클래스가 어떤식으로 작동하는지 내부 함수를 구현하는 연습을 했습니다. *TLS(Thread-Local-Storage)* 이 어떤식으로 사용되는지, 주로 어떤 함수 및 프로퍼티를 이용하는지 배웠습니다. 전역 변수(Heap 영역)을 가져와 지역 변수(Stack 영역)처럼 이용, *Parallel.Invoke* 함수를 간략하게 써봤습니다. Task 클래스를 대신해서 간단하게 테스트 할 때 쓰면 좋을 것 같습니다.
-
+*ReaderWriteLock* 클래스가 어떤식으로 작동하는지 내부 함수를 구현하는 연습을 했습니다. *TLS(Thread-Local-Storage)* 이 어떤식으로 사용되는지, 주로 어떤 함수 및 프로퍼티를 이용하는지 배웠습니다. 전역 변수(Heap 영역)을 가져와 지역 변수(Stack 영역)처럼 이용, *Parallel.Invoke* 함수를 간략하게 써봤습니다. Task 클래스를 대신해서 간단하게 테스트 할 때 쓰면 좋을 것 같습니다. 
+### 0118_네트워크 기초 이론, 통신 모델, 소켓 프로그래밍  
+전체적으로 단번에 이해하기 힘든 강의였기에 코드를 따라 작성하고 되짚어가며 공부했습니다. 
