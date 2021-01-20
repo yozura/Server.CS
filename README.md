@@ -15,3 +15,5 @@
 전체적으로 단번에 이해하기 힘든 강의였기에 코드를 따라 작성하고 되짚어가며 공부했습니다. 
 ### 0120_Listener, Session 1  
 이해가 잘 안되는 부분이 많았습니다. 전에 작성한 소켓 프로그래밍 자료를 비동기 방식으로 재배치하는 작업을 했습니다. *SocketAsyncEventArgs.Completed* 를 이용했습니다.
+### 0120_Session 2~4, Connector, TCP vs UDP 
+전 강의에서 하던 세션 작업을 이어서 하였고 클라이언트 접속 시 발생하는 Connector 부분 인터페이스를 Listener와 거의 동일하게 맞춰주었습니다. 그리고 *TCP(Transmission Control Protocol)* 와 *UDP(User Datagram Protocol)* 가 어떤 의미인지 어떤 상황에 사용하는지 두 가지방법의 장점과 단점에 대해서 간략하게 배웠습니다. 먼저 TCP는 패킷을 전달하는데에 있어서 안전을 보장하지만 모든 부분을 검증하기 때문에 속도가 느리고 반대로 UDP 같은 경우에는 안전을 보장하지 않는 대신 속도가 TCP에 비해 빠릅니다. 또한 UDP를 TCP처럼 신뢰성을 가질 수 있도록 만든것이 *RUDP(Reliable UDP)*입니다.
