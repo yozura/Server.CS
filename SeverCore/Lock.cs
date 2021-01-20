@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+﻿using System.Threading;
 
-namespace SeverCore
+namespace ServerCore
 {
     // 1.재귀적 락을 허용할지 (No)
     // 2.SpinLock 정책 (5000번 -> Yield)

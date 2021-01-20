@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\SeverCore.csproj",
-      "projectName": "SeverCore",
-      "projectPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\SeverCore.csproj",
+      "projectUniqueName": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj",
+      "projectName": "ServerCore",
+      "projectPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj",
       "packagesPath": "C:\\Users\\mygod\\.nuget\\packages\\",
       "outputPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\obj\\",
       "projectStyle": "PackageReference",

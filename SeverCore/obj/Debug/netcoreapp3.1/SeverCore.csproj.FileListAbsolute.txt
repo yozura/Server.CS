@@ -1,7 +1,4 @@
-E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.exe
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.deps.json
-E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.runtimeconfig.json
-E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.runtimeconfig.dev.json
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.dll
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.pdb
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\SeverCore.csprojAssemblyReference.cache
@@ -10,4 +7,7 @@ E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\Seve
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\SeverCore.csproj.CoreCompileInputs.cache
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\SeverCore.dll
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\SeverCore.pdb
+E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.exe
+E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.runtimeconfig.json
+E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\SeverCore.runtimeconfig.dev.json
 E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\SeverCore.genruntimeconfig.cache
