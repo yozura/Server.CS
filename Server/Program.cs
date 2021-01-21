@@ -6,27 +6,42 @@ using ServerCore;
 
 namespace Server
 {
-    class GameSession : Session
+    class Packet
+    {
+        public ushort size;
+        public ushort packetId;
+    }
+
+    class GameSession : PacketSession
     {
         public override void OnConnected(EndPoint endPoint)
         {
             Console.WriteLine($"OnConnected : {endPoint}");
 
-            byte[] sendBuff = Encoding.UTF8.GetBytes("Welcome To MMORPG Server !");
-            Send(sendBuff);
-            Thread.Sleep(1000);
+            //Packet packet = new Packet() { size = 100, packetId = 10 };
+
+            //ArraySegment<byte> openSegment = SendBufferHelper.Open(4096);
+            //byte[] buff = BitConverter.GetBytes(packet.size);
+            //byte[] buff2 = BitConverter.GetBytes(packet.packetId);
+            //Array.Copy(buff, 0, openSegment.Array, openSegment.Offset, buff.Length);
+            //Array.Copy(buff2, 0, openSegment.Array, openSegment.Offset + buff.Length, buff2.Length);
+            //ArraySegment<byte> sendBuff = SendBufferHelper.Close(buff.Length + buff2.Length);
+
+            // Send(sendBuff);
+            Thread.Sleep(5000);
             Disconnet();
+        }
+
+        public override void OnRecvPacket(ArraySegment<byte> buffer)
+        {
+            ushort size = BitConverter.ToUInt16(buffer.Array, buffer.Offset);
+            ushort packetId = BitConverter.ToUInt16(buffer.Array, buffer.Offset + 2);
+            Console.WriteLine($"RecvPacketId : {packetId}, Size : {size}");
         }
 
         public override void OnDisconnected(EndPoint endPoint)
         {
             Console.WriteLine($"OnDisconnected : {endPoint}");
-        }
-
-        public override void OnRecv(ArraySegment<byte> buffer)
-        {
-            string recvData = Encoding.UTF8.GetString(buffer.Array, buffer.Offset, buffer.Count);
-            Console.WriteLine($"[From Client] {recvData}");
         }
 
         public override void OnSend(int numOfBytes)
