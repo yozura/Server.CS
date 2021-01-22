@@ -18,4 +18,6 @@
 ### 0120_Session 2~4, Connector, TCP vs UDP 
 전 강의에서 하던 세션 작업을 이어서 하였고 클라이언트 접속 시 발생하는 Connector 부분 인터페이스를 Listener와 거의 동일하게 맞춰주었습니다. 그리고 *TCP(Transmission Control Protocol)* 와 *UDP(User Datagram Protocol)* 가 어떤 의미인지 어떤 상황에 사용하는지 두 가지방법의 장점과 단점에 대해서 간략하게 배웠습니다. 먼저 TCP는 패킷을 전달하는데에 있어서 안전을 보장하지만 모든 부분을 검증하기 때문에 속도가 느리고 반대로 UDP 같은 경우에는 안전을 보장하지 않는 대신 속도가 TCP에 비해 빠릅니다. 또한 UDP를 TCP처럼 신뢰성을 가질 수 있도록 만든것이 *RUDP(Reliable UDP)* 입니다.  
 ### 0122_RecvBuffer, SendBuffer, PacketSession  
-*RecieveBuffer*를 일일이 작성하지 않고 따로 클래스를 만들어 관리하도록 했고 *SendBuffer* 또한 동일하게 개편했습니다. SendBuffer의 경우 멀티쓰레드 환경에서 사용하기 때문에 이전에 배운 **ThreadLocal** 클래스를 이용해서 Stack 영역에서 활용할 수 있도록 처리했습니다.
+*RecieveBuffer*를 일일이 작성하지 않고 따로 클래스를 만들어 관리하도록 했고 *SendBuffer* 또한 동일하게 개편했습니다. SendBuffer의 경우 멀티쓰레드 환경에서 사용하기 때문에 이전에 배운 **ThreadLocal** 클래스를 이용해서 Stack 영역에서 활용할 수 있도록 처리했습니다. 
+### 0122_패킷 직렬화 1~2 
+패킷을 좀 더 효율적으로 관리하기 위해서 PacketSession을 만들었습니다. 패킷을 통신할 때 **BitConverter**를 이용했습니다. BitConverter.TryWriteBytes() 함수를 이용해서 패킷 직렬화와 역직렬화를 수행했습니다.
