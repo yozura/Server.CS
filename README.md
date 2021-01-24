@@ -20,4 +20,13 @@
 ### 0122_RecvBuffer, SendBuffer, PacketSession  
 *RecieveBuffer*를 일일이 작성하지 않고 따로 클래스를 만들어 관리하도록 했고 *SendBuffer* 또한 동일하게 개편했습니다. SendBuffer의 경우 멀티쓰레드 환경에서 사용하기 때문에 이전에 배운 **ThreadLocal** 클래스를 이용해서 Stack 영역에서 활용할 수 있도록 처리했습니다. 
 ### 0122_패킷 직렬화 1~2 
-패킷을 좀 더 효율적으로 관리하기 위해서 PacketSession을 만들었습니다. 패킷을 통신할 때 **BitConverter**를 이용했습니다. BitConverter.TryWriteBytes() 함수를 이용해서 패킷 직렬화와 역직렬화를 수행했습니다.
+패킷을 좀 더 효율적으로 관리하기 위해서 PacketSession을 만들었습니다. 패킷을 통신할 때 **BitConverter**를 이용했습니다. BitConverter.TryWriteBytes() 함수를 이용해서 패킷 직렬화와 역직렬화를 수행했습니다. 
+### 0124_UTF-8,16 패킷 직렬화 3~4
+문자열을 패킷으로 직렬화 시킬 때 어떤 유형을 선택해서 할 것인지에 대해 배웠습니다. 기본적으로 C# 에서의 문자열은 UTF-16로 작성되기 때문에 Encoding 라이브러리를 사용해 Unicode 클래스를 이용했습니다. UTF-8은 영문에 1byte를 부여하고 한글에 3byte를 할당합니다. UTF-16은 영문과 한글에 또는 BMP에 포함되어있는 문자들에 한해서 2byte 씩 할당합니다. 예외적으로 BMP 이후 문자에는 4byte 씩 할당합니다. 또 List를 패킷으로 직렬화 시키는 방법도 배웠습니다.
+
+## 자주 사용한 라이브러리
+1) *BitConverter* (패킷을 전송시킬 때 사용) 
+2) *Text.Encoding* (문자열을 직렬화 할 때 사용)  
+3) *Threading* (멀티쓰레드 작업할 때 사용)
+4) *Net* (네트워크 작업할 때 사용)  
+5) *Net.Socket* (네트워크 소켓 프로그래밍 할 때 사용)  
