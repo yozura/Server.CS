@@ -1,0 +1,13 @@
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.exe
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.deps.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.runtimeconfig.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.runtimeconfig.dev.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.dll
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\PacketGenerator.pdb
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.csprojAssemblyReference.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfoInputs.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.AssemblyInfo.cs
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.csproj.CoreCompileInputs.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.dll
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.pdb
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\PacketGenerator.genruntimeconfig.cache

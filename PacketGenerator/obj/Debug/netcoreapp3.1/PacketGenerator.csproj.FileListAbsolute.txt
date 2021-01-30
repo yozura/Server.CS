@@ -11,3 +11,16 @@ E:\UnityPrograming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.
 E:\UnityPrograming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
 E:\UnityPrograming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
 E:\UnityPrograming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.exe
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.deps.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.runtimeconfig.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.runtimeconfig.dev.json
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.dll
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\bin\netcoreapp3.1\PacketGenerator.pdb
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csprojAssemblyReference.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfoInputs.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.AssemblyInfo.cs
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.csproj.CoreCompileInputs.cache
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.dll
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.pdb
+E:\UnityProgramming\PrivateStudy\Server.CS\PacketGenerator\obj\Debug\netcoreapp3.1\PacketGenerator.genruntimeconfig.cache

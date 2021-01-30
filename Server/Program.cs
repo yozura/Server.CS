@@ -10,6 +10,9 @@ namespace Server
 
         static void Main(string[] args)
         {
+            // Dictinary Register
+            PacketManager.Instance.Register();
+
             // DNS (Domain Name System)
             string host = Dns.GetHostName();
             IPHostEntry ipHost = Dns.GetHostEntry(host);

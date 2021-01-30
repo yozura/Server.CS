@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\DummyClient\\DummyClient.csproj",
+      "projectUniqueName": "E:\\UnityProgramming\\PrivateStudy\\Server.CS\\DummyClient\\DummyClient.csproj",
       "projectName": "DummyClient",
-      "projectPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\DummyClient\\DummyClient.csproj",
+      "projectPath": "E:\\UnityProgramming\\PrivateStudy\\Server.CS\\DummyClient\\DummyClient.csproj",
       "packagesPath": "C:\\Users\\mygod\\.nuget\\packages\\",
-      "outputPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\DummyClient\\obj\\",
+      "outputPath": "E:\\UnityProgramming\\PrivateStudy\\Server.CS\\DummyClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mygod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,9 +51,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj": {
-              "projectPath": "E:\\UnityPrograming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj"
+            "E:\\UnityProgramming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj": {
+              "projectPath": "E:\\UnityProgramming\\PrivateStudy\\Server.CS\\SeverCore\\ServerCore.csproj"
             }
           }
         }
@@ -66,6 +67,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -81,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
