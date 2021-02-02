@@ -1,6 +1,7 @@
 ﻿using ServerCore;
 using System;
 using System.Net;
+using System.Threading;
 
 namespace Server
 {
@@ -18,13 +19,13 @@ namespace Server
             IPEndPoint endPoint = new IPEndPoint(ipAddr, 7777);
 
             // 문지기
-
             _listener.Init(endPoint, () => { return SessionManager.Instance.Generate(); });
             Console.WriteLine("Listening...");
 
             while (true)
             {
-                ;
+                Room.Push(() => Room.Flush());
+                Thread.Sleep(250);
             }
         }
     }

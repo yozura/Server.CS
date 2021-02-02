@@ -43,7 +43,7 @@ namespace ServerCore
             }
         }
 
-        private Action Pop()
+        Action Pop()
         {
             lock (_lock)
             {

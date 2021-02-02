@@ -38,7 +38,7 @@ class PacketManager
             action.Invoke(session, buffer);
     }
 
-    private void MakePacket<T>(PacketSession session, ArraySegment<byte> buffer)
+    void MakePacket<T>(PacketSession session, ArraySegment<byte> buffer)
         where T : IPacket, new()
     {
         T pkt = new T();
