@@ -10,7 +10,6 @@ E:\UnityPrograming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\Serv
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\ServerCore.deps.json
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\ServerCore.dll
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\bin\Debug\netcoreapp3.1\ServerCore.pdb
-E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\ServerCore.csprojAssemblyReference.cache
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfoInputs.cache
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\ServerCore.AssemblyInfo.cs
 E:\UnityProgramming\PrivateStudy\Server.CS\SeverCore\obj\Debug\netcoreapp3.1\ServerCore.csproj.CoreCompileInputs.cache
